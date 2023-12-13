@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.bf538fe7.css",
-    "main.js": "/react-gh-pages/static/js/main.2cd9ab9b.js",
-    "static/media/HeroImage.png": "/react-gh-pages/static/media/HeroImage.09d1a79c93f147399de1.png",
-    "index.html": "/react-gh-pages/index.html",
-    "main.bf538fe7.css.map": "/react-gh-pages/static/css/main.bf538fe7.css.map",
-    "main.2cd9ab9b.js.map": "/react-gh-pages/static/js/main.2cd9ab9b.js.map"
+    "main.css": "/christgrant98.github.io/static/css/main.bf538fe7.css",
+    "main.js": "/christgrant98.github.io/static/js/main.103fdc2d.js",
+    "static/media/HeroImage.png": "/christgrant98.github.io/static/media/HeroImage.09d1a79c93f147399de1.png",
+    "index.html": "/christgrant98.github.io/index.html",
+    "main.bf538fe7.css.map": "/christgrant98.github.io/static/css/main.bf538fe7.css.map",
+    "main.103fdc2d.js.map": "/christgrant98.github.io/static/js/main.103fdc2d.js.map"
   },
   "entrypoints": [
     "static/css/main.bf538fe7.css",
-    "static/js/main.2cd9ab9b.js"
+    "static/js/main.103fdc2d.js"
   ]
 }
