@@ -1,7 +1,7 @@
 {
   "name": "my-portfolio",
   "version": "0.1.0",
-  "homepage": "https://christgrant98.github.io/christgrant98.github.io",
+  "homepage": "https://christgrant98.github.io",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
