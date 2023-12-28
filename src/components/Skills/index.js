@@ -72,6 +72,13 @@ const Skill = styled.div`
     max-width: 330px;
     padding: 10px 36px;
   }
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+
+  &:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 0 50px 4px rgba(0,0,0,0.25);
+    }
 
 
 `
