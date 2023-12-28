@@ -137,7 +137,7 @@ export const MobileMenu = styled.div`
     right: 0;
     width: 100%;
     padding: 12px 40px 24px 40px;
-    background: rgba(0, 0, 0, 0.45);
+    background: rgba(0, 0, 0, 0.9);
     transition: all 0.6s ease-in-out;
     transform: ${({ isOpen }) => (isOpen ? 'translateY(0)' : 'translateY(-100%)')};
     border-radius: 0 0 20px 20px;
@@ -195,7 +195,7 @@ export const MobileMenuButton = styled.a`
 `;
 
 export  const MobileLink = styled.a`
-  color: ${({ theme }) => theme.text_primary};
+  color: rgba(250, 250, 250, 0.7);
   font-weight: 500;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
