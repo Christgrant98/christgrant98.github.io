@@ -60,13 +60,8 @@ export const skills = [
       },
       {
        name: "MySQL",
-       image: "https://icons-for-free.com/iconfiles/png/512/development+logo+mysql+icon-1320184807686758112.png",
+       image: "https://static-00.iconduck.com/assets.00/database-mysql-icon-462x512-6itsq0zm.png",
      },
-      // {
-      //   name: "MongoDB",
-      //   image:
-      //     "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
-      // },
       {
         name: "Firebase",
         image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",

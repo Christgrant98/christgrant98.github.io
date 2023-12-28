@@ -74,6 +74,7 @@ const SocialMediaIcon = styled.a`
 
 const IconText = styled.span`
   margin-left: 8px;
+  font-size: 14px;
 `;
 
 const ContactForm = styled.form`

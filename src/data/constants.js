@@ -11,10 +11,9 @@ export const Bio = {
     "I am dedicated to consistently seeking the best practices for continuous progress. My mindset drives me to embrace new challenges with a commitment to quality, and to make valuable contributions to both projects and individuals or teams.",
   github: "https://github.com/christgrant98",
   resume:
-    "https://drive.google.com/file/d/1khIT1dSZSadV-cnPf3EPWWM_4rRWl5_h/view?usp=sharing",
+    "https://drive.google.com/file/d/1jCyfsrz6fdWl7c6pz9KVdBy9YbE1IoEy/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/christian-garcerant/",
   twitter: "",
   insta: "https://www",
   facebook: "https://www.facebook.com",
 };
-

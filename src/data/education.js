@@ -2,11 +2,11 @@ export const education = [
   {
     id: 0,
     img: "https://media.licdn.cn/dms/image/C560BAQFVdwEHcKeslA/company-logo_200_200/0/1619039954276?e=2159024400&v=beta&t=7q4ofhxpEHgKesIkM0Ni9rF5aomzcKfzuD3YVj6RA5E",
-    school: "PROtalento ",
+    school: "PROtalento®",
     date: "Mar 2023 - Oct 2023",
     desc: 
     "This study was centered on the MERN technology stack (MongoDB, Express.js, React.js, and Node.js), aimed to master programming logic, essential for effective problem-solving, and comprehend software engineering principles for scalable and maintainable applications. Emphasis was placed on hands-on projects for practical skill development and portfolio building. Participants received guidance from expert instructors, ensuring a high standard of professional learning in the practical application of this comprehensive technological stack.",
-    degree: "Full Stack Development MERN Bootcamp",
+    degree: "Attestation BootCamp, Information Technology (IT)",
   },
   {
     id: 1,

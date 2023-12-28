@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 import styled from 'styled-components';
-import { Button, Snackbar } from '@mui/material';
+import { Button, IconButton, Snackbar } from '@mui/material';
 import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
@@ -15,27 +15,39 @@ const PhoneNumberText = styled.span`
   color: ${({ theme }) => theme.text_primary};
 `;
 
-const CopyPhoneNumberButton = styled(Button)`
-  width: 5%;
+const CopyPhoneNumberButton = styled(IconButton)`
+  height: 40px;
+  width: 40px;
   text-decoration: none;
-  text-align: center;
   background: hsla(271, 100%, 50%, 1);
   background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
   background: -moz-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-  background: -webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-  padding: 13px 16px;
-  margin-top: 2px;
-  margin-left: auto; /* Set the button to the right */
-  border-radius: 12px;
-  border: none;
   color: ${({ theme }) => theme.text_primary};
-  font-size: 18px;
-  font-weight: 900;
+
+  .MuiSvgIcon-root {
+    color: white; 
+    transition: color 0.2s ease-in-out;
+  }
+
+  &:hover {
+    background: ${({ theme }) => theme.primary};
+    .MuiSvgIcon-root {
+      color: ${({ theme }) => theme.hoverColor};
+    }
+  }
 `;
 
 const CopyPhoneNumber = () => {
   const WhiteWhatsappIcon = styled(WhatsAppIcon)`
-    color: white;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: ${({ theme }) => theme.text_primary};
+  transition: color 0.2s ease-in-out;
+  &:hover {
+    color: ${({ theme }) => theme.primary};
+  }
   `;
   const emailRef = useRef(null);
   const [isSnackbarOpen, setIsSnackbarOpen] = useState(false);
