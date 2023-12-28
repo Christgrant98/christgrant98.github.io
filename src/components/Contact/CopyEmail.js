@@ -17,8 +17,8 @@ const EmailText = styled.span`
 `;
 
 const CopyEmailButton = styled(IconButton)`
-  height: 40px;
-  width: 40px;
+  height: 35px;
+  width: 35px;
   text-decoration: none;
   background: hsla(271, 100%, 50%, 1);
   background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
