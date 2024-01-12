@@ -181,6 +181,30 @@ const Button = styled.a`
     }
 `;
 
+const Tasks = styled.div`
+    width: 100%;
+    display: flex;
+    gap: 12px;
+    margin-top: -10px;
+    flex-direction: column; 
+
+`
+const Task = styled.div`
+    font-size: 15px;
+    font-weight: 400;
+    color: ${({ theme }) => theme.text_primary + 99};
+    @media only screen and (max-width: 768px){
+        font-size: 12px;
+    }
+`
+const ItemWrapperHorizontal = styled.div`
+    display: column;
+    flex-wrap: wrap;
+    gap: 8px;
+`
+
+
+
 
 const index = ({ openModal, setOpenModal }) => {
     const project = openModal?.project;
@@ -207,6 +231,19 @@ const index = ({ openModal, setOpenModal }) => {
                         ))}
                     </Tags>
                     <Desc>{project?.description}</Desc>
+                    {project?.tasks &&
+                    <>
+                        <br />
+                        <Tasks>
+                            <b>Tasks performed:</b>
+                            <ItemWrapperHorizontal>
+                                {project?.tasks?.map((task, index) => (
+                                    <Task>• {task}</Task>
+                                ))}
+                            </ItemWrapperHorizontal>
+                        </Tasks>
+                    </>
+                }  
                     {project.member && (
                         <>
                             <Label>Members</Label>

@@ -144,6 +144,28 @@ const Skill = styled.div`
     }
 `
 
+const Tasks = styled.div`
+    width: 100%;
+    display: flex;
+    gap: 12px;
+    margin-top: -10px;
+    flex-direction: column; 
+
+`
+const Task = styled.div`
+    font-size: 15px;
+    font-weight: 400;
+    color: ${({ theme }) => theme.text_primary + 99};
+    @media only screen and (max-width: 768px){
+        font-size: 12px;
+    }
+`
+const ItemWrapperHorizontal = styled.div`
+    display: column;
+    flex-wrap: wrap;
+    gap: 8px;
+`
+
 
 
 const ExperienceCard = ({ experience }) => {
@@ -158,15 +180,29 @@ const ExperienceCard = ({ experience }) => {
                 </Body>
             </Top>
             <Description>
-                {experience?.desc &&
-                    <Span>{experience?.desc}</Span>
+                {experience?.description &&
+                    <Span>{experience?.description}  <Tasks>
+                    <br />
 
+                            <b>Tasks performed:</b>
+                            <ItemWrapperHorizontal>
+                                {experience?.tasks?.map((task, index) => (
+                                    <Task>• {task}</Task>
+                                ))}
+                            </ItemWrapperHorizontal>
+                        </Tasks>
+                        </Span>
                 }
+                {experience?.tasks &&
+                    <>
+                        
+                    </>
+                }            
                 {experience?.skills &&
                     <>
                         <br />
                         <Skills>
-                            <b>Skills:</b>
+                            <b>Stack:</b>
                             <ItemWrapper>
                                 {experience?.skills?.map((skill, index) => (
                                     <Skill>• {skill}</Skill>

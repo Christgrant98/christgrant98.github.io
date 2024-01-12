@@ -7,6 +7,7 @@ export const projects = [
     date: "Jan 2023 - Jun 2023",
     description:
     "Developed a full-stack application and website designed to establish a connection between tattoo artists and clients through an interactive display of artists' work via a catalog and advertisements. Additionally, it allows users to create a profile to establish a presence in the tattoo market, thereby enhancing the user experience for initiating contact. Managing states and following the Bloc and Cubit architecture and to stores all the information. Key features include login and registration functionality, a like system, and stories to communicate promotions or trending styles. Users also have the option to switch between Spanish and English languages.",
+    tasks:["hey1", "hey2"],
     image:
     "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXhzdWFhcnFyZDcxY3g4ZWFoc3Vqb2oza3dwZjNmMmVlYXYzZ2w2cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MyN6vpjKtrcb4ItAjY/giphy.gif",
     tags: [
@@ -27,12 +28,14 @@ export const projects = [
       },
     ]
   },
+
   {
     id: 1,
     title: "Ubaxi",
     date: "May 2023 - Oct 2023",
     description:
       "UBAXI is a mobile application that enables users to request rides, offer and counteroffer fares, whether you are a driver or a passenger. Everything happens in real-time and is fully functional. The app operates through functional subscriptions, utilizing the Stripe API and Google Maps API for all location-related functionalities.",
+    tasks:["hey1", "hey2"],
     image:
     "https://i.imgur.com/JTp84jE.png",
     tags: ["Flutter", "Dart", "Ruby", "Rails", "Postgresql", "Docker"],
@@ -88,6 +91,7 @@ export const projects = [
     date: "Oct 2023 - Nov 2023",
     description:
       "It is a mobile application created at the request of a client from the Cali Zoo in Colombia. The application recognizes, through a photo taken within the app and multimedia, the fish captured in the photo and provides information through a query sent to integrated ChatGPT API. Additionally, it includes a user points system for completing challenges and KAHOOT QUIZ-style games. This project was delivered as a freelance.",
+    tasks:["hey1", "hey2"],
     image:
     "https://i.imgur.com/vm4cIiU.png",
     tags: ["Flutter", "Dart", "Mysql", "ChatGPT"],
@@ -108,6 +112,7 @@ export const projects = [
     date: "Nov 2023 - Present",
     description:
       "This Web Page was made in React js",
+    tasks:["hey1", "hey2"],
     image:
     "https://i.imgur.com/MhHLItu.png",
     tags: ["React", "Javastript", "HTML", "CSS"],
