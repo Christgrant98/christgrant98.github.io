@@ -1,10 +1,28 @@
 export const experiences = [
   {
     id: 0,
+    role: "Full Stack developer",
+    company: "Joyware SAS",
+    date: "September 2023 - Present.",
+    desc: "As a Full Stack developer at Joyware, I specialize in JavaScript technologies, including React with Redux for frontend and Node.js with Express.js for backend. Proficient in MongoDB and PostgreSQL, I excel in establishing direct client connections and providing technical solutions. Skilled in problem-solving, I efficiently address challenges and contribute to project success.",
+    skills: [
+      "React",
+      "Javascript",
+      "Typescript",
+      "Redux",
+      "NodeJs",
+      "ExpressJs",
+      "MongoDB",
+      "PostgreSQL",
+
+    ],
+  },
+  {
+    id: 1,
     img: "https://static.vecteezy.com/system/resources/previews/003/649/733/original/jl-logo-monogram-with-pentagon-shape-style-design-template-free-vector.jpg",
     role: "Full Stack developer",
     company: "Joyful labs",
-    date: "January 2023 - Present",
+    date: "January 2023 - September 2023",
     desc: "As a Full Stack Developer at Joyful Labs, I excelled in Flutter and Ruby, leading diverse projects with a focus on scalable code, responsive interfaces, and adherence to design principles. My commitment to Scrum ensured timely deliveries, including independent execution of projects for Google Play Store and App Store, while my role as a trainer enhanced communication and leadership skills in development.",
     skills: [
       "Flutter",
@@ -17,10 +35,10 @@ export const experiences = [
     ],
   },
   {
-    id: 1,
+    id: 2,
     role: "Frontend Developer",
-    company: "Joyware SAS ",
-    date: "July 2022 - January 2023",
+    company: "Joyware SAS",
+    date: "January 2022 - January 2023",
     desc: "I initiated my tech career as a Frontend Developer at Joyware S.A.S, specializing in technological solutions. I crafted web interfaces using HTML, CSS, and React, and expanded my skills into Flutter for mobile app UIs. This experience honed my foundational knowledge, adaptability to new technologies, and ability to meet rigorous design standards within a dynamic environment. I actively collaborated with my team, contributing to projects and staying current in this evolving field.",
     skills: [
       "React",
@@ -33,7 +51,7 @@ export const experiences = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     role: "Full Stack Developer",
     company: "As freelance",
     img: "https://i.imgur.com/SXEf7Y5.jpg",
@@ -50,5 +68,4 @@ export const experiences = [
       "Dart",
     ],
   },
-
 ];
