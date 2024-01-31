@@ -22,6 +22,10 @@ export const skills = [
         image:
         "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png",
       },
+       {
+        name: "Javascript",
+        image:"https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"
+      },
       {
         name: "HTML",
         image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
@@ -42,30 +46,34 @@ export const skills = [
     title: "Backend",
     skills: [
       {
-        name: "Ruby",
+        name: "Ruby on Rails",
         image:
         "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/2048px-Ruby_logo.svg.png"
       },
-      {
-        name: "Rails",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Ruby_on_Rails_logo.svg/1200px-Ruby_on_Rails_logo.svg.png",
-      },
       // {
-      //   name: "Node Js",
-      //   image: "https://nodejs.org/static/images/logo.svg",
+      //   name: "Rails",
+      //   image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Ruby_on_Rails_logo.svg/1200px-Ruby_on_Rails_logo.svg.png",
       // },
+      {
+        name: "Node Js",
+        image: "https://nodejs.org/static/images/logo.svg",
+      },
+      {
+        name: "Express Js",
+        image: "https://ajeetchaulagain.com/static/7cb4af597964b0911fe71cb2f8148d64/87351/express-js.png",
+      },
+      {
+        name: "Firebase",
+        image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+      },
       {
         name: "Postgresql",
         image: "https://www.postgresql.org/media/img/about/press/elephant.png",
       },
       {
-       name: "MySQL",
-       image: "https://static-00.iconduck.com/assets.00/database-mysql-icon-462x512-6itsq0zm.png",
+       name: "MongoDB",
+       image: "https://miro.medium.com/v2/resize:fit:512/1*doAg1_fMQKWFoub-6gwUiQ.png",
      },
-      {
-        name: "Firebase",
-        image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
-      },
     ],
   },
     
@@ -75,12 +83,12 @@ export const skills = [
       {
         name: "Git",
         image:
-          "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+          "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
       },
       {
         name: "GitHub",
         image:
-          "https://cdn.icon-icons.com/icons2/2429/PNG/512/github_logo_icon_147285.png",
+          "https://icones.pro/wp-content/uploads/2021/06/icone-github-grise.png",
       },
       {
         name: "Docker",
@@ -100,7 +108,7 @@ export const skills = [
       {
         name: "Postman",
         image:
-          "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
+          "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/postman-icon.png",
       },
       {
         name: "Jira",
