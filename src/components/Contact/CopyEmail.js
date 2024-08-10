@@ -81,12 +81,13 @@ const CopyEmail = () => {
         readOnly
         style={{ position: 'absolute', left: '-9999px' }}
       />
-      <Snackbar
-        open={isSnackbarOpen}
-        autoHideDuration={null}
-        onClose={handleSnackbarClose}
-        message="Email copied to clipboard!"
-      />
+     <Snackbar
+    style={{ zIndex: 1000, position: 'fixed' }}
+    open={isSnackbarOpen}
+    autoHideDuration={null}
+    onClose={handleSnackbarClose}
+    message="Email copied to clipboard!!!"
+/>
     </CopyEmailContainer>
   );
 };

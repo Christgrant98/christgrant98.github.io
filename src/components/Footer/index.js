@@ -12,6 +12,7 @@ const FooterContainer = styled.div`
   display: flex;
   justify-content: center;
   //background: linear-gradient(100.26deg, rgba(0, 102, 255, 0.05) 42.33%, rgba(150, 0, 225, 0.05) 127.07%);
+  zIndex: 0;
 `;
 
 
