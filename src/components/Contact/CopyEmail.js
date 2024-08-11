@@ -81,7 +81,7 @@ const CopyEmail = () => {
         readOnly
         style={{ position: 'absolute', left: '-9999px' }}
       />
-     <Snackbar
+      <Snackbar
     style={{ zIndex: 1000, position: 'fixed' }}
     open={isSnackbarOpen}
     autoHideDuration={null}
